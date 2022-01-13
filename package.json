@@ -1,0 +1,20 @@
+{
+  "name": "feedbackservice",
+  "version": "1.0.0",
+  "description": "Microservice for collecting customer feedback.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "dynamodb"
+  ],
+  "author": "Shay",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1055.0",
+    "express": "^4.17.2"
+  }
+}
